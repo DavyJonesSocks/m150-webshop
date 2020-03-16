@@ -1,0 +1,12 @@
+:host {
+  height: 100%;
+  width: 100%;
+  display: block;
+
+  #wrapper {
+    display: flex;
+    flex-flow: row;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+}
