@@ -1,3 +1,27 @@
 :host {
 
+  .navigation {
+    background-color: #222;
+    color: #fff;
+    height: 100%;
+    line-height: 75px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .navigation-list {
+      margin: 0;
+      list-style: none;
+      display: flex;
+      padding-left: 10px;
+
+      .navigation-item {
+        padding: 0 15px;
+      }
+    }
+
+  }
+
 }

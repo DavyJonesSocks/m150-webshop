@@ -7,7 +7,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
-  constructor() { }
+  public sites;
+  constructor() {
+
+    //mockup will later be replaced by custom user inputs
+    this.sites = [
+      {
+        "label": "Stratocaster-Modelle",
+        "url": "",
+      },
+      {
+        "label": "Telecaster-Modelle",
+        "url": "",
+      },
+      {
+        "label": "Singlecut-Modelle",
+        "url": "",
+      },
+      {
+        "label": "Doublecut-Modelle",
+        "url": "",
+      },
+    ]
+  }
 
   ngOnInit() {
   }

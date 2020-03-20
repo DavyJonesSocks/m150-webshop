@@ -1,1 +1,7 @@
-I'm the navigation
+<div class="navigation">
+  <ul class="navigation-list">
+    <li class="navigation-item" *ngFor="let site of sites">
+      <a href="{{ site.url }}">{{ site.label }}</a>
+    </li>
+  </ul>
+</div>
