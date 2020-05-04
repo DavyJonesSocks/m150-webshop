@@ -1,11 +1,17 @@
 <div class="product-item">
   <div class="preview">
     <img height="200" src="assets/img/gibson.jpeg">
+    <div class="purchase">
+      {{ item.price }} CHF
+      <button>Purchase</button>
+    </div>
+    <br>
+    {{ item.name }}
   </div>
   <div class="meta">
-    {{ item.name }}
-    <br>
     <em>{{ item.desc }}</em>
-    <hr>
   </div>
+
+
 </div>
+<hr>
