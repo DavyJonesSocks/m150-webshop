@@ -1,0 +1,38 @@
+:host {
+  margin: 0 auto;
+
+  .list {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left;
+
+    .name {
+      overflow: hidden;
+    }
+
+    .amount {
+      width: 30px;
+      padding: 5px;
+    }
+
+    .price {
+      text-align: right;
+    }
+
+    td {
+      height: 30px;
+      line-height: 30px;
+      padding-bottom: 10px;
+    }
+  }
+  .total {
+
+    td {
+      border-top: 1px solid #333;
+    }
+
+    font-weight: bold;
+
+  }
+}

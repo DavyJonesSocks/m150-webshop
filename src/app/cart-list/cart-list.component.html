@@ -1,0 +1,22 @@
+<table class="list" *ngIf="getTotal() > 0">
+  <thead>
+  <th>Produkte</th>
+  <th>Stück</th>
+  <th class="text-align-right">CHF</th>
+  </thead>
+  <tbody>
+  <tr *ngFor="let item of data">
+    <td>
+      <div class="name">{{ item.name }}</div>
+    </td>
+    <td><input readonly class="amount" type="number" [value]="item.count"> x</td>
+    <td class="text-align-right">{{ item.price }}</td>
+  </tr>
+  <tr class="total">
+    <td>Total: </td>
+    <td></td>
+    <td class="text-align-right">{{ getTotal() }}</td>
+  </tr>
+  </tbody>
+</table>
+

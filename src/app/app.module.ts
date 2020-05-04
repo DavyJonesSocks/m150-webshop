@@ -10,6 +10,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HeaderComponent } from './header/header.component';
 import { ProductItemComponent } from './product-item/product-item.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { CartListComponent } from './cart-list/cart-list.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { ProductListComponent } from './product-list/product-list.component';
     SidebarComponent,
     HeaderComponent,
     ProductItemComponent,
-    ProductListComponent
+    ProductListComponent,
+    CartListComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

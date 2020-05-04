@@ -1,1 +1,5 @@
-I'm the cart
+<div class="cart" *ngIf="data.length > 0">
+  <app-cart-list [data]="data"></app-cart-list>
+
+  <button type="submit" class="btn">Bestellen</button>
+</div>
